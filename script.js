@@ -25,7 +25,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           title: 'Masukin nama kamu dulu',
           input: 'text',
           inputLabel: '',
-          showCancelButton: true,
+          showCancelButton: false,
           confirmButtonText: `Oke`,
           cancelButtonText: `Gak Mau`,
           inputValidator: (value) => {
