@@ -26,7 +26,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           input: 'text',
           inputLabel: '',
           showCancelButton: false,
-          confirmButtonText: `Oke`,
+          confirmButtonText: `Okee`,
           cancelButtonText: `Gak Mau`,
           inputValidator: (value) => {
             if (!value) {
